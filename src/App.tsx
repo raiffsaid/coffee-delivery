@@ -1,12 +1,14 @@
+import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import { Header } from './pages/Home/components/Header';
+import { Router } from './Router';
 import { defaultTheme } from './styles/themes/default';
 
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Header />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
     </ThemeProvider>
-    
   )
 }

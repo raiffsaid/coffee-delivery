@@ -1,6 +1,6 @@
 import { MapPin, ShoppingCart } from 'phosphor-react';
-import logo from '../../../../assets/logo.svg';
-import { defaultTheme } from '../../../../styles/themes/default';
+import logo from '../../assets/logo.svg';
+import { defaultTheme } from '../../styles/themes/default';
 import { HeaderContainer, LocationAndShoppingCartContainer } from './styles';
 
 export function Header() {

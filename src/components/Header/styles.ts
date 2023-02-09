@@ -18,10 +18,12 @@ export const LocationAndShoppingCartContainer = styled.div`
     background: ${props => props.theme['purple-light']};
     color: ${props => props.theme.purple};
     line-height: 1.6;
+    border-radius: 6px;
   }
 
   div:last-child {
     background: ${props => props.theme['yellow-light']};
     line-height: 1.6;
+    border-radius: 6px;
   }
 `;
